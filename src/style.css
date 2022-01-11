@@ -1,0 +1,30 @@
+#song-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.song-list-column {
+  width: 25%;
+  justify-content: center;
+  display: flex;
+}
+
+.song-header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+
+.song-header-column {
+  width: 25%;
+  justify-content: center;
+  display: flex;
+}
